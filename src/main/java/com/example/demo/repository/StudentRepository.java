@@ -2,5 +2,5 @@ package com.example.demo.repository;
 import org.springframework.stereotype.Repository;
 @Repository
 public interface StudentRepository {
-
+    Student poststudent(Student st);
 }

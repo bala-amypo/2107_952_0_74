@@ -3,7 +3,7 @@ import org.springframework.stereotype.Service;
 import com.example.demo.entity.Student;
 @Service
 public class StudentServiceImpl implements StudentService{
-    public Student post(Student st){
-
+    public Student poststudent (Student st){
+        
     }
 }
