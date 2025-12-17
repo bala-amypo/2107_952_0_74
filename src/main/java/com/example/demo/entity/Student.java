@@ -1,6 +1,10 @@
 package com.example.demo.entity;
+
+
 import java.time.*;
 import jakarta.persistence.*;
+
+
 
 
 @Entity
@@ -52,13 +56,6 @@ public class Student{
         return cgpa;
     } 
 
-    public Student(Long id,String name,String dept,LocalDate dob,float cgpa){
-        this.id=id;
-        this.name=name;
-        this.dept=dept;
-        this.dob=dob;
-        this.cgpa=cgpa;
-    }
 
 
 
