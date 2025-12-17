@@ -5,7 +5,8 @@ import jakarta.persistence.*;
 
 @Entity
 public class Student{
-    @id
+    @Id
+    @GeneratedValue(strategy=GenerationType.)
     private Long id;
     private String name;
     private String dept;
