@@ -4,6 +4,7 @@ import com.example.demo.entity.Student;
 import com.example.demo.service.StudentService;
 @Service
 public class StudentServiceImpl implements StudentService{
+    StudentRepository
     @Override
     public Student poststudent (Student st){
         return st;
