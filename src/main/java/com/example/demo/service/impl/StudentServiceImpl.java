@@ -1,5 +1,6 @@
 package com.example.demo.service.impl;
 import org.springframework.stereotype.Service;
+
 import com.example.demo.service.StudentService;
 import com.example.demo.entity.Student;
 import com.example.demo.repository.StudentRepository;
@@ -14,7 +15,7 @@ StudentRepository Sr;
 @Override
 public Student postData(Student st){
 
-    return st;
+    return Sr.save(st);
 
 }
 
