@@ -7,6 +7,6 @@ import com.example.sql.Entitydata.Student;
 
 @Repository
 public interface studentsrepo extends JpaRepository<Student,Integer> {
-
+    
     
 }
